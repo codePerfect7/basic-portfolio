@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://th.bing.com/th/id/OIP.lrASEKie-75GbIUdITUhaQHaEo?pid=ImgDet&rs=1) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: "Century Gothic", sans-serif;
+}
+.box-img{
+    border: 70%;
+    height: 225px;
+    width: 225px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 6px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9
+}
